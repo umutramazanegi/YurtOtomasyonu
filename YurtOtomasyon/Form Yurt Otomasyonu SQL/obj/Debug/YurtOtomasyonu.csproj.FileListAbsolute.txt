@@ -1,0 +1,26 @@
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\bin\Debug\Form Yurt Otomasyonu SQL.exe.config
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\bin\Debug\Form Yurt Otomasyonu SQL.exe
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\bin\Debug\Form Yurt Otomasyonu SQL.pdb
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\bin\Debug\Interop.WMPLib.dll
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\YurtOtomasyonu.csprojAssemblyReference.cache
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Interop.WMPLib.dll
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\YurtOtomasyonu.csproj.ResolveComReference.cache
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmPersonel.resources
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmYoneticiislemleri.resources
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmAdminGiris.resources
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmAnaForm.resources
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmBolumler.resources
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmGeliristatistik.resources
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmGider.resources
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmGiderListesi.resources
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmOdemeler.resources
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmOgrenciDüzenle.resources
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmOgrenciKayit.resources
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmOgrenciListe.resources
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.Properties.Resources.resources
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\YurtOtomasyonu.csproj.GenerateResource.cache
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\YurtOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form Yurt Otomasyonu SQL.exe
+C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form Yurt Otomasyonu SQL.pdb
