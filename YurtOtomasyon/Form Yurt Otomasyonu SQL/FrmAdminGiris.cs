@@ -39,5 +39,14 @@ namespace Form_Yurt_Otomasyonu_SQL
             }
             bgl.baglanti().Close();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // LinkLabel'ın açacağı web sitesi adresini belirtin.
+            string hedefURL = "https://umutramazanegi.com/";
+
+            // System.Diagnostics.Process.Start() metodunu kullanarak varsayılan tarayıcıda URL'yi açın.
+            System.Diagnostics.Process.Start(hedefURL);
+        }
     }
 }

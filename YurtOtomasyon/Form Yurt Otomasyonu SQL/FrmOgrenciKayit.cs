@@ -58,18 +58,19 @@ namespace Form_Yurt_Otomasyonu_SQL
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
             
-            SqlCommand komutkaydet = new SqlCommand("insert into Ogrenci(OgrAd,OgrSoyad,OgrTc,OgrTelefon,OgrDogum,OgrMail,OgrOdano,OgrVeliAdSoyad,OgrVeliTelefon,OgrVeliAdres,OgrBolum) Values(@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10,@p11)", bgl.baglanti());
+            SqlCommand komutkaydet = new SqlCommand("insert into Ogrenci(OgrAd,OgrSoyad,OgrTC,OgrTelefon,OgrDogum,OgrBolum, OgrMail,OgrOdaNo,OgrVeliAdSoyad,OgrVeliTelefon,OgrVeliAdres) Values(@p1,@p2,@p3,@p4,@p5,@p6,@p7,@p8,@p9,@p10,@p11)", bgl.baglanti());
             komutkaydet.Parameters.AddWithValue("@p1", TxtOgrenciad.Text);
             komutkaydet.Parameters.AddWithValue("@p2", TxtOgrSoyad.Text);
             komutkaydet.Parameters.AddWithValue("@p3", MskTC.Text);
             komutkaydet.Parameters.AddWithValue("@p4", MskTelefon.Text);
-            komutkaydet.Parameters.AddWithValue("@p5", MskDogum.Text);       
+            komutkaydet.Parameters.AddWithValue("@p5", MskDogum.Text);
+            komutkaydet.Parameters.AddWithValue("@p11", CmbBolum.Text);
             komutkaydet.Parameters.AddWithValue("@p6", TxtMail.Text);
             komutkaydet.Parameters.AddWithValue("@p7", CmbOdano.Text);
             komutkaydet.Parameters.AddWithValue("@p8", TxtVeliAdSoy.Text);
             komutkaydet.Parameters.AddWithValue("@p9", MskVeliTel.Text);
             komutkaydet.Parameters.AddWithValue("@p10", RichAdres.Text);
-            komutkaydet.Parameters.AddWithValue("@p11", CmbBolum.Text);
+
             komutkaydet.ExecuteNonQuery();
             bgl.baglanti().Close();
 
@@ -102,4 +103,3 @@ namespace Form_Yurt_Otomasyonu_SQL
         }
     }
 }
-//Data Source =.\SQLEXPRESS;Initial Catalog = YurtKayit; Integrated Security = True

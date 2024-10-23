@@ -24,3 +24,29 @@ C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda
 C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\YurtOtomasyonu.csproj.CoreCompileInputs.cache
 C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form Yurt Otomasyonu SQL.exe
 C:\Users\Umut Ramazan\OneDrive\Masaüstü\Form-ogrenci-Kayit-Yurt-Otomasyonu-oda-takip-ve-gelir-takip-master\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form Yurt Otomasyonu SQL.pdb
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\YurtOtomasyonu.csprojAssemblyReference.cache
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Interop.WMPLib.dll
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\AxInterop.WMPLib.dll
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\YurtOtomasyonu.csproj.ResolveComReference.cache
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmPersonel.resources
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmYoneticiislemleri.resources
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmAdminGiris.resources
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmAnaForm.resources
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmBolumler.resources
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmGeliristatistik.resources
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmGider.resources
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmGiderListesi.resources
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmOdemeler.resources
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmOgrenciDüzenle.resources
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmOgrenciKayit.resources
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.FrmOgrenciListe.resources
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form_Yurt_Otomasyonu_SQL.Properties.Resources.resources
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\YurtOtomasyonu.csproj.GenerateResource.cache
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\YurtOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form Yurt Otomasyonu SQL.pdb
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\bin\Debug\Form Yurt Otomasyonu SQL.exe.config
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\bin\Debug\Form Yurt Otomasyonu SQL.exe
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\bin\Debug\Form Yurt Otomasyonu SQL.pdb
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\bin\Debug\Interop.WMPLib.dll
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\bin\Debug\AxInterop.WMPLib.dll
+C:\Github\YurtOtomasyonu\YurtOtomasyon\Form Yurt Otomasyonu SQL\obj\Debug\Form Yurt Otomasyonu SQL.exe

@@ -44,17 +44,17 @@ namespace Form_Yurt_Otomasyonu_SQL
 
         private void radyo1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1.URL = "https://www.canli-radyo.biz/";
+            axWindowsMediaPlayer1.URL = "https://karnaval.com/listen/metrofm";
         }
 
         private void radyo2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1.URL = "https://www.canli-radyo.biz/2013/07/joy-turk.html";
+            axWindowsMediaPlayer1.URL = "https://karnaval.com/listen/superfm";
         }
 
         private void radyo3ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1.URL = "https://www.canli-radyo.biz/2013/07/kral-fm-dinle.html";
+            axWindowsMediaPlayer1.URL = "https://listen.powerapp.com.tr/powerturk2/128/icecast.audio?/;stream.mp3";
         }
 
         private void öğrenciEkleToolStripMenuItem_Click(object sender, EventArgs e)
@@ -139,12 +139,13 @@ namespace Form_Yurt_Otomasyonu_SQL
 
         private void hakkımızdaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bu Program Hamza Çakmak Tarafında 29.09.2019 tarihinde Tamamlanmıştır...", "Öğrenci Yurt Otomasyonu", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Bu Program Umut Ramazan Eği Tarafında 23.10.2024 tarihinde Tamamlanmıştır...", "Öğrenci Yurt Otomasyonu", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void çıkışToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
     }
 }

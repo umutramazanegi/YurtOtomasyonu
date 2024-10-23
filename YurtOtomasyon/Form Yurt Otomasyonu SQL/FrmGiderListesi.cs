@@ -24,10 +24,7 @@ namespace Form_Yurt_Otomasyonu_SQL
 
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -44,6 +41,11 @@ namespace Form_Yurt_Otomasyonu_SQL
             frm.diger = dataGridView1.Rows[secilen].Cells[7].Value.ToString();
             frm.Show();
             
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }
