@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YurtOtomasyonu", "Form Yurt Otomasyonu SQL\YurtOtomasyonu.csproj", "{D1E88F2B-666C-4E74-B401-9F4E3C353896}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "YurtOtomasyonuSetup", "YurtOtomasyonuSetup\YurtOtomasyonuSetup.vdproj", "{C027E0A2-F2BB-4CB8-AF4C-C30BDE086CF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{D1E88F2B-666C-4E74-B401-9F4E3C353896}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1E88F2B-666C-4E74-B401-9F4E3C353896}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1E88F2B-666C-4E74-B401-9F4E3C353896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C027E0A2-F2BB-4CB8-AF4C-C30BDE086CF2}.Debug|Any CPU.ActiveCfg = Debug
+		{C027E0A2-F2BB-4CB8-AF4C-C30BDE086CF2}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

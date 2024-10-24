@@ -20,7 +20,7 @@ namespace Form_Yurt_Otomasyonu_SQL
         SQLBaglantim bgl = new SQLBaglantim();
         private void FrmOdemeler_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'yurtKayitDataSet3.Borclar' table. You can move, or remove it, as needed.
+           
             this.borclarTableAdapter.Fill(this.yurtKayitDataSet3.Borclar);
 
         }
@@ -48,20 +48,21 @@ namespace Form_Yurt_Otomasyonu_SQL
             kalan = Convert.ToInt32(TxtKalan.Text);
             yeniborc = kalan - odenen;
             TxtKalan.Text = yeniborc.ToString();
-
-            SqlCommand komut = new SqlCommand("update borclar set ogrkalanborc=@p1 where ogrid=@p2", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komut = new SqlCommand("update borclar set ogrkalanborc=@p1 where ogrid=@p2",conn);
             komut.Parameters.AddWithValue("@p2", TxtOgrid.Text);
             komut.Parameters.AddWithValue("@p1", TxtKalan.Text);
             komut.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
 
             this.borclarTableAdapter.Fill(this.yurtKayitDataSet3.Borclar);
-
-            SqlCommand komut2 = new SqlCommand("insert into Kasa(odemeay,odememiktar) values (@k1,@k2)", bgl.baglanti());
+            conn.Open();
+            SqlCommand komut2 = new SqlCommand("insert into Kasa(odemeay,odememiktar) values (@k1,@k2)", conn);
             komut2.Parameters.AddWithValue("@k1", CmbxOdenenay.Text);
             komut2.Parameters.AddWithValue("@k2", TxtOdenen.Text);
             komut2.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
         }
     }
 }

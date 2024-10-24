@@ -54,18 +54,20 @@
             // 
             this.Txtyoneticiid.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.Txtyoneticiid.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Txtyoneticiid.Location = new System.Drawing.Point(129, 9);
+            this.Txtyoneticiid.Location = new System.Drawing.Point(172, 11);
+            this.Txtyoneticiid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txtyoneticiid.Name = "Txtyoneticiid";
-            this.Txtyoneticiid.Size = new System.Drawing.Size(254, 26);
+            this.Txtyoneticiid.Size = new System.Drawing.Size(337, 30);
             this.Txtyoneticiid.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(16, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 23);
+            this.label1.Size = new System.Drawing.Size(141, 29);
             this.label1.TabIndex = 2;
             this.label1.Text = "Yönetici ID :";
             // 
@@ -73,18 +75,20 @@
             // 
             this.txtkullaniciad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.txtkullaniciad.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtkullaniciad.Location = new System.Drawing.Point(129, 52);
+            this.txtkullaniciad.Location = new System.Drawing.Point(172, 64);
+            this.txtkullaniciad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtkullaniciad.Name = "txtkullaniciad";
-            this.txtkullaniciad.Size = new System.Drawing.Size(254, 26);
+            this.txtkullaniciad.Size = new System.Drawing.Size(337, 30);
             this.txtkullaniciad.TabIndex = 5;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(12, 52);
+            this.label2.Location = new System.Drawing.Point(16, 64);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 23);
+            this.label2.Size = new System.Drawing.Size(142, 29);
             this.label2.TabIndex = 4;
             this.label2.Text = "Kullanıcı Ad :";
             // 
@@ -92,27 +96,30 @@
             // 
             this.txtkullanicisifre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.txtkullanicisifre.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtkullanicisifre.Location = new System.Drawing.Point(129, 90);
+            this.txtkullanicisifre.Location = new System.Drawing.Point(172, 111);
+            this.txtkullanicisifre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtkullanicisifre.Name = "txtkullanicisifre";
-            this.txtkullanicisifre.Size = new System.Drawing.Size(254, 26);
+            this.txtkullanicisifre.Size = new System.Drawing.Size(337, 30);
             this.txtkullanicisifre.TabIndex = 7;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(59, 93);
+            this.label3.Location = new System.Drawing.Point(79, 114);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 23);
+            this.label3.Size = new System.Drawing.Size(82, 29);
             this.label3.TabIndex = 6;
             this.label3.Text = "Şifre :";
             // 
             // BtnKaydet
             // 
             this.BtnKaydet.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnKaydet.Location = new System.Drawing.Point(63, 148);
+            this.BtnKaydet.Location = new System.Drawing.Point(84, 182);
+            this.BtnKaydet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnKaydet.Name = "BtnKaydet";
-            this.BtnKaydet.Size = new System.Drawing.Size(94, 36);
+            this.BtnKaydet.Size = new System.Drawing.Size(125, 44);
             this.BtnKaydet.TabIndex = 8;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.UseVisualStyleBackColor = true;
@@ -121,9 +128,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(176, 148);
+            this.button1.Location = new System.Drawing.Point(235, 182);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 36);
+            this.button1.Size = new System.Drawing.Size(125, 44);
             this.button1.TabIndex = 9;
             this.button1.Text = "Güncelle";
             this.button1.UseVisualStyleBackColor = true;
@@ -132,9 +140,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe Print", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(289, 148);
+            this.button2.Location = new System.Drawing.Point(385, 182);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 36);
+            this.button2.Size = new System.Drawing.Size(125, 44);
             this.button2.TabIndex = 10;
             this.button2.Text = "Sil";
             this.button2.UseVisualStyleBackColor = true;
@@ -149,9 +158,10 @@
             this.yoneticiAdDataGridViewTextBoxColumn,
             this.yoneticiSifreDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.adminBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(40, 212);
+            this.dataGridView1.Location = new System.Drawing.Point(53, 261);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(343, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(457, 185);
             this.dataGridView1.TabIndex = 11;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
@@ -190,11 +200,11 @@
             // 
             // FrmYoneticiislemleri
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(407, 374);
+            this.ClientSize = new System.Drawing.Size(543, 460);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -205,9 +215,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Txtyoneticiid);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmYoneticiislemleri";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Yönetici İşlemleri";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

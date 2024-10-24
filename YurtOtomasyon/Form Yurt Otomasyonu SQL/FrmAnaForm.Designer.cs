@@ -129,14 +129,14 @@
             // öğrenciEkleToolStripMenuItem
             // 
             this.öğrenciEkleToolStripMenuItem.Name = "öğrenciEkleToolStripMenuItem";
-            this.öğrenciEkleToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.öğrenciEkleToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
             this.öğrenciEkleToolStripMenuItem.Text = "Öğrenci Ekle";
             this.öğrenciEkleToolStripMenuItem.Click += new System.EventHandler(this.öğrenciEkleToolStripMenuItem_Click);
             // 
             // öğrenciListesiToolStripMenuItem
             // 
             this.öğrenciListesiToolStripMenuItem.Name = "öğrenciListesiToolStripMenuItem";
-            this.öğrenciListesiToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.öğrenciListesiToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
             this.öğrenciListesiToolStripMenuItem.Text = "Öğrenci Listesi";
             this.öğrenciListesiToolStripMenuItem.Click += new System.EventHandler(this.öğrenciListesiToolStripMenuItem_Click);
             // 
@@ -154,21 +154,21 @@
             // bölümEkleToolStripMenuItem
             // 
             this.bölümEkleToolStripMenuItem.Name = "bölümEkleToolStripMenuItem";
-            this.bölümEkleToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.bölümEkleToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
             this.bölümEkleToolStripMenuItem.Text = "Bölüm Ekle";
             this.bölümEkleToolStripMenuItem.Click += new System.EventHandler(this.bölümEkleToolStripMenuItem_Click);
             // 
             // blümDüzenleToolStripMenuItem
             // 
             this.blümDüzenleToolStripMenuItem.Name = "blümDüzenleToolStripMenuItem";
-            this.blümDüzenleToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.blümDüzenleToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
             this.blümDüzenleToolStripMenuItem.Text = "Blüm Düzenle";
             this.blümDüzenleToolStripMenuItem.Click += new System.EventHandler(this.blümDüzenleToolStripMenuItem_Click);
             // 
             // bölümSilToolStripMenuItem
             // 
             this.bölümSilToolStripMenuItem.Name = "bölümSilToolStripMenuItem";
-            this.bölümSilToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.bölümSilToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
             this.bölümSilToolStripMenuItem.Text = "Bölüm Sil";
             this.bölümSilToolStripMenuItem.Click += new System.EventHandler(this.bölümSilToolStripMenuItem_Click);
             // 
@@ -184,7 +184,7 @@
             // ödemeAlToolStripMenuItem
             // 
             this.ödemeAlToolStripMenuItem.Name = "ödemeAlToolStripMenuItem";
-            this.ödemeAlToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.ödemeAlToolStripMenuItem.Size = new System.Drawing.Size(158, 26);
             this.ödemeAlToolStripMenuItem.Text = "Ödeme Al";
             this.ödemeAlToolStripMenuItem.Click += new System.EventHandler(this.ödemeAlToolStripMenuItem_Click);
             // 
@@ -201,14 +201,14 @@
             // giderEkleToolStripMenuItem
             // 
             this.giderEkleToolStripMenuItem.Name = "giderEkleToolStripMenuItem";
-            this.giderEkleToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.giderEkleToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.giderEkleToolStripMenuItem.Text = "Gider Ekle";
             this.giderEkleToolStripMenuItem.Click += new System.EventHandler(this.giderEkleToolStripMenuItem_Click);
             // 
             // giderListesiToolStripMenuItem
             // 
             this.giderListesiToolStripMenuItem.Name = "giderListesiToolStripMenuItem";
-            this.giderListesiToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.giderListesiToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.giderListesiToolStripMenuItem.Text = "Gider Listesi";
             this.giderListesiToolStripMenuItem.Click += new System.EventHandler(this.giderListesiToolStripMenuItem_Click);
             // 
@@ -225,14 +225,14 @@
             // gelirİstatistikleriToolStripMenuItem
             // 
             this.gelirİstatistikleriToolStripMenuItem.Name = "gelirİstatistikleriToolStripMenuItem";
-            this.gelirİstatistikleriToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.gelirİstatistikleriToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.gelirİstatistikleriToolStripMenuItem.Text = "Gelir İstatistikleri";
             this.gelirİstatistikleriToolStripMenuItem.Click += new System.EventHandler(this.gelirİstatistikleriToolStripMenuItem_Click);
             // 
             // giderİstatistiklerToolStripMenuItem
             // 
             this.giderİstatistiklerToolStripMenuItem.Name = "giderİstatistiklerToolStripMenuItem";
-            this.giderİstatistiklerToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.giderİstatistiklerToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             // 
             // yöneticiToolStripMenuItem
             // 
@@ -274,14 +274,14 @@
             // hesapMakinesiToolStripMenuItem
             // 
             this.hesapMakinesiToolStripMenuItem.Name = "hesapMakinesiToolStripMenuItem";
-            this.hesapMakinesiToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.hesapMakinesiToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.hesapMakinesiToolStripMenuItem.Text = "Hesap Makinesi";
             this.hesapMakinesiToolStripMenuItem.Click += new System.EventHandler(this.hesapMakinesiToolStripMenuItem_Click);
             // 
             // paintToolStripMenuItem
             // 
             this.paintToolStripMenuItem.Name = "paintToolStripMenuItem";
-            this.paintToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.paintToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.paintToolStripMenuItem.Text = "Paint";
             this.paintToolStripMenuItem.Click += new System.EventHandler(this.paintToolStripMenuItem_Click);
             // 
@@ -292,7 +292,7 @@
             this.radyo2ToolStripMenuItem,
             this.radyo3ToolStripMenuItem});
             this.radio1ToolStripMenuItem.Name = "radio1ToolStripMenuItem";
-            this.radio1ToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.radio1ToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.radio1ToolStripMenuItem.Text = "Radyolar";
             // 
             // radyo1ToolStripMenuItem
@@ -319,14 +319,14 @@
             // hakkımızdaToolStripMenuItem
             // 
             this.hakkımızdaToolStripMenuItem.Name = "hakkımızdaToolStripMenuItem";
-            this.hakkımızdaToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.hakkımızdaToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.hakkımızdaToolStripMenuItem.Text = "Hakkımızda";
             this.hakkımızdaToolStripMenuItem.Click += new System.EventHandler(this.hakkımızdaToolStripMenuItem_Click);
             // 
             // çıkışToolStripMenuItem
             // 
             this.çıkışToolStripMenuItem.Name = "çıkışToolStripMenuItem";
-            this.çıkışToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.çıkışToolStripMenuItem.Size = new System.Drawing.Size(204, 26);
             this.çıkışToolStripMenuItem.Text = "Çıkış";
             this.çıkışToolStripMenuItem.Click += new System.EventHandler(this.çıkışToolStripMenuItem_Click);
             // 
@@ -438,7 +438,8 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmAnaForm";
-            this.Text = "FrmAnaForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Ana Sayfa";
             this.Load += new System.EventHandler(this.FrmAnaForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

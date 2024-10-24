@@ -27,7 +27,9 @@ namespace Form_Yurt_Otomasyonu_SQL
 
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("insert into Personel(personeladsoyad, personeldepartman) values (@p1,@p2)", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komut = new SqlCommand("insert into Personel(personeladsoyad, personeldepartman) values (@p1,@p2)", conn);
             komut.Parameters.AddWithValue("@p1", txtpersonelad.Text);
             komut.Parameters.AddWithValue("@p2", cmbxgorev.Text);
             komut.ExecuteNonQuery();
@@ -37,12 +39,14 @@ namespace Form_Yurt_Otomasyonu_SQL
 
         private void btnguncelle_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("update personel set personeladsoyad=@p1,personeldepartman=@p2 where personelid=@p3", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komut = new SqlCommand("update personel set personeladsoyad=@p1,personeldepartman=@p2 where personelid=@p3", conn);
             komut.Parameters.AddWithValue("@p1", txtpersonelad.Text);
             komut.Parameters.AddWithValue("@p2", cmbxgorev.Text);
             komut.Parameters.AddWithValue("@p3", Txtpersonelid.Text);
             komut.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
             this.personelTableAdapter.Fill(this.yurtKayitDataSet7.Personel);
         }
 
@@ -60,10 +64,12 @@ namespace Form_Yurt_Otomasyonu_SQL
 
         private void btnsil_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("delete from personel where personelid=@p1", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komut = new SqlCommand("delete from personel where personelid=@p1", conn);
             komut.Parameters.AddWithValue("@p1", Txtpersonelid.Text);
             komut.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
             this.personelTableAdapter.Fill(this.yurtKayitDataSet7.Personel);
         }
     }

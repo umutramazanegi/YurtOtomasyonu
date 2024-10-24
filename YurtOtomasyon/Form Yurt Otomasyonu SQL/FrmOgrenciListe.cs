@@ -41,8 +41,8 @@ namespace Form_Yurt_Otomasyonu_SQL
             fr.velitel = dataGridView1.Rows[secilen].Cells[9].Value.ToString();
             fr.adres = dataGridView1.Rows[secilen].Cells[10].Value.ToString();
             fr.Show();
-            //this.Hide();
-            //secilen = 0;
+            this.Hide();
+            secilen = 0;
         }
     }
 }

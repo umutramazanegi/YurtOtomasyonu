@@ -45,9 +45,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(330, 23);
+            this.label1.Location = new System.Drawing.Point(440, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 19);
+            this.label1.Size = new System.Drawing.Size(130, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Toplam Gelir :";
             // 
@@ -55,18 +56,20 @@
             // 
             this.lblkasa.AutoSize = true;
             this.lblkasa.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblkasa.Location = new System.Drawing.Point(444, 23);
+            this.lblkasa.Location = new System.Drawing.Point(592, 28);
+            this.lblkasa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblkasa.Name = "lblkasa";
-            this.lblkasa.Size = new System.Drawing.Size(17, 19);
+            this.lblkasa.Size = new System.Drawing.Size(22, 25);
             this.lblkasa.TabIndex = 1;
             this.lblkasa.Text = "0";
             // 
             // CmbAy
             // 
             this.CmbAy.FormattingEnabled = true;
-            this.CmbAy.Location = new System.Drawing.Point(111, 21);
+            this.CmbAy.Location = new System.Drawing.Point(148, 26);
+            this.CmbAy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CmbAy.Name = "CmbAy";
-            this.CmbAy.Size = new System.Drawing.Size(129, 21);
+            this.CmbAy.Size = new System.Drawing.Size(171, 24);
             this.CmbAy.TabIndex = 2;
             this.CmbAy.SelectedIndexChanged += new System.EventHandler(this.CmbAy_SelectedIndexChanged);
             // 
@@ -74,9 +77,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(27, 21);
+            this.label2.Location = new System.Drawing.Point(36, 26);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 19);
+            this.label2.Size = new System.Drawing.Size(99, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Ay Seçin :";
             // 
@@ -86,13 +90,14 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(3, 156);
+            this.chart1.Location = new System.Drawing.Point(4, 192);
+            this.chart1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Aylık";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(563, 193);
+            this.chart1.Size = new System.Drawing.Size(751, 238);
             this.chart1.TabIndex = 4;
             this.chart1.Text = "chart1";
             // 
@@ -100,9 +105,10 @@
             // 
             this.lblkazanc.AutoSize = true;
             this.lblkazanc.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblkazanc.Location = new System.Drawing.Point(444, 54);
+            this.lblkazanc.Location = new System.Drawing.Point(592, 66);
+            this.lblkazanc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblkazanc.Name = "lblkazanc";
-            this.lblkazanc.Size = new System.Drawing.Size(17, 19);
+            this.lblkazanc.Size = new System.Drawing.Size(22, 25);
             this.lblkazanc.TabIndex = 6;
             this.lblkazanc.Text = "0";
             // 
@@ -110,19 +116,20 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(342, 54);
+            this.label4.Location = new System.Drawing.Point(456, 66);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 19);
+            this.label4.Size = new System.Drawing.Size(114, 25);
             this.label4.TabIndex = 5;
             this.label4.Text = "Seçilen Ay :";
             // 
             // FrmGeliristatistik
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(568, 351);
+            this.ClientSize = new System.Drawing.Size(757, 432);
             this.Controls.Add(this.lblkazanc);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.chart1);
@@ -130,9 +137,11 @@
             this.Controls.Add(this.CmbAy);
             this.Controls.Add(this.lblkasa);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmGeliristatistik";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gelir İstatistik";
             this.Load += new System.EventHandler(this.FrmGeliristatistik_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();

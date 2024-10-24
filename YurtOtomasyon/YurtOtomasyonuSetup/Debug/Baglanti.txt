@@ -1,0 +1,1 @@
+Data Source=UMUT\SQLEXPRESS;Initial Catalog=YurtKayit;Integrated Security=True

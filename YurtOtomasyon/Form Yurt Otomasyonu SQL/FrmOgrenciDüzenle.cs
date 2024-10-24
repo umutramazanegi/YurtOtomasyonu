@@ -17,19 +17,22 @@ namespace Form_Yurt_Otomasyonu_SQL
         {
             InitializeComponent();
         }
-        public string id,ad,soyad,TC,telefon,dogum,bolum,mail,odano,veliad,velitel,adres;
+        public string id,ad,soyad,TC,telefon,dogum,mail,odano,veliad,velitel,adres,bolum;
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlCommand komutsil = new SqlCommand("delete from Ogrenci where ogrid=@id", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komutsil = new SqlCommand("delete from Ogrenci where ogrid=@id", conn);
             komutsil.Parameters.AddWithValue("@id", TxtOgrid.Text);
             komutsil.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
 
-            SqlCommand komutoda = new SqlCommand("update odalar set odaaktif=odaaktif-1 where odano=@az1", bgl.baglanti());
+            conn.Open();
+            SqlCommand komutoda = new SqlCommand("update odalar set odaaktif=odaaktif-1 where odano=@az1", conn);
             komutoda.Parameters.AddWithValue("@az1", CmbOdano.Text);
             komutoda.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
 
             FrmOgrenciListe frm = new FrmOgrenciListe();
             frm.Show();
@@ -40,7 +43,9 @@ namespace Form_Yurt_Otomasyonu_SQL
         SQLBaglantim bgl = new SQLBaglantim();
         private void BtnDuzenle_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("update Ogrenci set Ograd=@p2, OgrSoyad=@p3,OgrTC=@p4,Ogrtelefon=@p5,ogrdogum=@p6,ogrmail=@p7,ogrodano=@p8,ogrveliadsoyad=@p9,ogrvelitelefon=@p10,ogrveliadres=@p11,ogrbolum=@p12 where ogrid=@p1", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komut = new SqlCommand("update Ogrenci set Ograd=@p2, OgrSoyad=@p3,OgrTC=@p4,Ogrtelefon=@p5,ogrdogum=@p6,ogrmail=@p7,ogrodano=@p8,ogrveliadsoyad=@p9,ogrvelitelefon=@p10,ogrveliadres=@p11,ogrbolum=@p12 where ogrid=@p1", conn);
             komut.Parameters.AddWithValue("@p1", TxtOgrid.Text);
             komut.Parameters.AddWithValue("@p2", TxtOgrenciad.Text);
             komut.Parameters.AddWithValue("@p3", TxtOgrSoyad.Text);
@@ -54,7 +59,7 @@ namespace Form_Yurt_Otomasyonu_SQL
             komut.Parameters.AddWithValue("@p11", RichAdres.Text);
             komut.Parameters.AddWithValue("@p12", CmbBolum.Text);
             komut.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
 
             FrmOgrenciListe frm = new FrmOgrenciListe();
             frm.Show();
@@ -70,22 +75,25 @@ namespace Form_Yurt_Otomasyonu_SQL
             MskTelefon.Text = telefon;
             MskDogum.Text = dogum;
             CmbBolum.Text = bolum;
-            SqlCommand komut2 = new SqlCommand("select bolumad from bolumler", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komut2 = new SqlCommand("select bolumad from bolumler", conn);
             SqlDataReader oku = komut2.ExecuteReader();
             while (oku.Read())
             {
                 CmbBolum.Items.Add(oku["bolumad"].ToString());
             }
-            bgl.baglanti().Close();
+            conn.Close();
             TxtMail.Text = mail;
             CmbOdano.Text = odano;
-            SqlCommand komut3 = new SqlCommand("select odano from odalar", bgl.baglanti());
+            conn.Open();
+            SqlCommand komut3 = new SqlCommand("select odano from odalar", conn);
             SqlDataReader oku2 = komut3.ExecuteReader();
             while (oku2.Read())
             {
                 CmbOdano.Items.Add(oku2["odano"].ToString());
             }
-            bgl.baglanti().Close();
+            conn.Close();
             TxtVeliAdSoy.Text = veliad;
             MskVeliTel.Text = velitel;
             RichAdres.Text = adres;

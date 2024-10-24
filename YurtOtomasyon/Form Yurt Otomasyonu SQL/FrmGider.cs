@@ -23,7 +23,9 @@ namespace Form_Yurt_Otomasyonu_SQL
 
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
-            SqlCommand komut2 = new SqlCommand("update Giderler set elektrik=@p1, su=@p2, dogalgaz=@p3,internet=@p4, gıda=@p5,personel=@p6,diger=@p7 where odemeid=@p8", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komut2 = new SqlCommand("update Giderler set elektrik=@p1, su=@p2, dogalgaz=@p3,internet=@p4, gıda=@p5,personel=@p6,diger=@p7 where odemeid=@p8", conn);
             komut2.Parameters.AddWithValue("@p8", txtgiderid.Text);
             komut2.Parameters.AddWithValue("@p1", Txtelektrk.Text);
             komut2.Parameters.AddWithValue("@p2", Txtsu.Text);
@@ -33,7 +35,7 @@ namespace Form_Yurt_Otomasyonu_SQL
             komut2.Parameters.AddWithValue("@p6", Txtpersonel.Text);
             komut2.Parameters.AddWithValue("@p7", TxtDiger.Text);
             komut2.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
 
             txtgiderid.Clear();
             Txtelektrk.Clear();
@@ -47,9 +49,12 @@ namespace Form_Yurt_Otomasyonu_SQL
 
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
             try
             {
-                SqlCommand komut = new SqlCommand("insert into Giderler(elektrik, su, dogalgaz,internet, gıda,personel,diger) values(@p1,@p2,@p3,@p4,@p5,@p6,@p7)", bgl.baglanti());
+
+                SqlCommand komut = new SqlCommand("insert into Giderler(elektrik, su, dogalgaz,internet, gıda,personel,diger) values(@p1,@p2,@p3,@p4,@p5,@p6,@p7)", conn);
             komut.Parameters.AddWithValue("@p1", Txtelektrk.Text);
             komut.Parameters.AddWithValue("@p2", Txtsu.Text);
             komut.Parameters.AddWithValue("@p3", TxtDogalgaz.Text);
@@ -58,7 +63,7 @@ namespace Form_Yurt_Otomasyonu_SQL
             komut.Parameters.AddWithValue("@p6", Txtpersonel.Text);
             komut.Parameters.AddWithValue("@p7", TxtDiger.Text);
             komut.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
                 MessageBox.Show("Kaydedildi!");
             }
             catch (Exception)

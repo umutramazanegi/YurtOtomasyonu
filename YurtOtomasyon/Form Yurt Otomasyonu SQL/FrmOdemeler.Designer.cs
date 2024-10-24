@@ -71,7 +71,7 @@
             // 
             this.TxtOgrid.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtOgrid.Location = new System.Drawing.Point(167, 25);
-            this.TxtOgrid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtOgrid.Margin = new System.Windows.Forms.Padding(4);
             this.TxtOgrid.Name = "TxtOgrid";
             this.TxtOgrid.Size = new System.Drawing.Size(267, 28);
             this.TxtOgrid.TabIndex = 1;
@@ -80,7 +80,7 @@
             // 
             this.TxtOdenen.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtOdenen.Location = new System.Drawing.Point(167, 138);
-            this.TxtOdenen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtOdenen.Margin = new System.Windows.Forms.Padding(4);
             this.TxtOdenen.Name = "TxtOdenen";
             this.TxtOdenen.Size = new System.Drawing.Size(267, 28);
             this.TxtOdenen.TabIndex = 3;
@@ -100,7 +100,7 @@
             // 
             this.TxtKalan.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtKalan.Location = new System.Drawing.Point(167, 175);
-            this.TxtKalan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtKalan.Margin = new System.Windows.Forms.Padding(4);
             this.TxtKalan.Name = "TxtKalan";
             this.TxtKalan.Size = new System.Drawing.Size(267, 28);
             this.TxtKalan.TabIndex = 5;
@@ -127,7 +127,7 @@
             this.ogrKalanBorcDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.borclarBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(515, 9);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(591, 196);
             this.dataGridView1.TabIndex = 6;
@@ -175,7 +175,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.Location = new System.Drawing.Point(167, 267);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(191, 41);
             this.button1.TabIndex = 7;
@@ -187,7 +187,7 @@
             // 
             this.TxtSoyad.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtSoyad.Location = new System.Drawing.Point(167, 98);
-            this.TxtSoyad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtSoyad.Margin = new System.Windows.Forms.Padding(4);
             this.TxtSoyad.Name = "TxtSoyad";
             this.TxtSoyad.Size = new System.Drawing.Size(267, 28);
             this.TxtSoyad.TabIndex = 11;
@@ -207,7 +207,7 @@
             // 
             this.textBad.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBad.Location = new System.Drawing.Point(167, 65);
-            this.textBad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBad.Margin = new System.Windows.Forms.Padding(4);
             this.textBad.Name = "textBad";
             this.textBad.Size = new System.Drawing.Size(267, 28);
             this.textBad.TabIndex = 9;
@@ -252,7 +252,7 @@
             "Kasım",
             "Aralık"});
             this.CmbxOdenenay.Location = new System.Drawing.Point(168, 217);
-            this.CmbxOdenenay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CmbxOdenenay.Margin = new System.Windows.Forms.Padding(4);
             this.CmbxOdenenay.Name = "CmbxOdenenay";
             this.CmbxOdenenay.Size = new System.Drawing.Size(265, 29);
             this.CmbxOdenenay.TabIndex = 13;
@@ -262,7 +262,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1093, 463);
+            this.ClientSize = new System.Drawing.Size(1108, 322);
             this.Controls.Add(this.CmbxOdenenay);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.TxtSoyad);
@@ -278,11 +278,12 @@
             this.Controls.Add(this.TxtOgrid);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmOdemeler";
-            this.Text = "FrmOdemeler";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Ödemeler";
             this.Load += new System.EventHandler(this.FrmOdemeler_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.borclarBindingSource)).EndInit();

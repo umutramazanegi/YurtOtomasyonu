@@ -20,7 +20,10 @@ namespace Form_Yurt_Otomasyonu_SQL
         SQLBaglantim bgl = new SQLBaglantim();
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("select * from admin where yoneticiad=@p1 and yoneticisifre=@p2", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+           // SqlCommand komut = new SqlCommand("select * from admin where yoneticiad=@p1 and yoneticisifre=@p2", bgl.baglanti());
+            SqlCommand komut = new SqlCommand("select * from admin where yoneticiad=@p1 and yoneticisifre=@p2", conn);
             komut.Parameters.AddWithValue("@p1", textBox1.Text);
             komut.Parameters.AddWithValue("@p2", textBox2.Text);
             SqlDataReader oku = komut.ExecuteReader();
@@ -37,7 +40,7 @@ namespace Form_Yurt_Otomasyonu_SQL
                 textBox2.Clear();
                 textBox1.Focus();
             }
-            bgl.baglanti().Close();
+            conn.Close();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -47,6 +50,16 @@ namespace Form_Yurt_Otomasyonu_SQL
 
             // System.Diagnostics.Process.Start() metodunu kullanarak varsayılan tarayıcıda URL'yi açın.
             System.Diagnostics.Process.Start(hedefURL);
+        }
+
+        private void FrmAdminGiris_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

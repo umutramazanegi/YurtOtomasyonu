@@ -27,11 +27,13 @@ namespace Form_Yurt_Otomasyonu_SQL
 
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("insert into admin(yoneticiad,yoneticisifre) values(@p1,@p2)", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komut = new SqlCommand("insert into admin(yoneticiad,yoneticisifre) values(@p1,@p2)", conn);
             komut.Parameters.AddWithValue("@p1", txtkullaniciad.Text);
             komut.Parameters.AddWithValue("@p2", txtkullanicisifre.Text);
             komut.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
             this.adminTableAdapter.Fill(this.yurtKayitDataSet6.Admin);
         }
 
@@ -49,21 +51,25 @@ namespace Form_Yurt_Otomasyonu_SQL
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("delete from admin where yoneticiid=@p1", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komut = new SqlCommand("delete from admin where yoneticiid=@p1", conn);
             komut.Parameters.AddWithValue("@p1", Txtyoneticiid.Text);
             komut.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
             this.adminTableAdapter.Fill(this.yurtKayitDataSet6.Admin);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("update admin set yoneticiad=@p1,yoneticisifre=@p2 where yoneticiid=@p3", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komut = new SqlCommand("update admin set yoneticiad=@p1,yoneticisifre=@p2 where yoneticiid=@p3", conn);
             komut.Parameters.AddWithValue("@p1", txtkullaniciad.Text);
             komut.Parameters.AddWithValue("@p2", txtkullanicisifre.Text);
             komut.Parameters.AddWithValue("@p3", Txtyoneticiid.Text);
             komut.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
             this.adminTableAdapter.Fill(this.yurtKayitDataSet6.Admin);
 
         }

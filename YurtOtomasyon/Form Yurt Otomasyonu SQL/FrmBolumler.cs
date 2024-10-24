@@ -19,7 +19,7 @@ namespace Form_Yurt_Otomasyonu_SQL
         }
         private void FrmBolumler_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'yurtKayitDataSet.Bolumler' table. You can move, or remove it, as needed.
+            
             this.bolumlerTableAdapter.Fill(this.yurtKayitDataSet.Bolumler);
         }
         public void temizle()
@@ -32,10 +32,12 @@ namespace Form_Yurt_Otomasyonu_SQL
         
         private void PcbBolumekle_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("insert into bolumler(bolumad) values(@p1)", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komut = new SqlCommand("insert into bolumler(bolumad) values(@p1)", conn);
             komut.Parameters.AddWithValue("@p1", TxtBolumad.Text);
             komut.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
             MessageBox.Show("Bölüm Eklendi");
             this.bolumlerTableAdapter.Fill(this.yurtKayitDataSet.Bolumler);
             temizle();
@@ -45,10 +47,12 @@ namespace Form_Yurt_Otomasyonu_SQL
         {
             int secilen = dataGridView1.SelectedCells[0].RowIndex;
             string id = dataGridView1.Rows[secilen].Cells[0].Value.ToString();
-            SqlCommand komut = new SqlCommand("delete from bolumler where bolumid=@id", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komut = new SqlCommand("delete from bolumler where bolumid=@id", conn);
             komut.Parameters.AddWithValue("@id", id);
             komut.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
             MessageBox.Show("Silme İşlem Tamam");
             this.bolumlerTableAdapter.Fill(this.yurtKayitDataSet.Bolumler);
             temizle();
@@ -65,11 +69,13 @@ namespace Form_Yurt_Otomasyonu_SQL
 
         private void PcbBolumguncelle_Click(object sender, EventArgs e)
         {
-            SqlCommand komut2 = new SqlCommand("update Bolumler Set Bolumad=@ad where bolumid=@id", bgl.baglanti());
+            SqlConnection conn = new SqlConnection(bgl.baglanti);
+            conn.Open();
+            SqlCommand komut2 = new SqlCommand("update Bolumler Set Bolumad=@ad where bolumid=@id", conn);
             komut2.Parameters.AddWithValue("@id", TxtBolumid.Text);
             komut2.Parameters.AddWithValue("@ad", TxtBolumad.Text);
             komut2.ExecuteNonQuery();
-            bgl.baglanti().Close();
+            conn.Close();
             this.bolumlerTableAdapter.Fill(this.yurtKayitDataSet.Bolumler);
             temizle();
         }

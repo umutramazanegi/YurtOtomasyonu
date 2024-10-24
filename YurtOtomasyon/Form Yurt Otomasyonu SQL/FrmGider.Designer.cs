@@ -263,7 +263,8 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmGider";
-            this.Text = "FrmGider";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Giderler";
             this.Load += new System.EventHandler(this.FrmGider_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

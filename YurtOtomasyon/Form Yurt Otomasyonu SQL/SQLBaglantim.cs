@@ -10,12 +10,14 @@ namespace Form_Yurt_Otomasyonu_SQL
 {
     class SQLBaglantim
     {
-        public SqlConnection baglanti()
-        {
-            SqlConnection baglanti = new SqlConnection(@"Data Source=UMUT\SQLEXPRESS;Initial Catalog=YurtKayit;Integrated Security=True");
-            baglanti.Open();
-            return baglanti;
 
-        }
+        public string baglanti = System.IO.File.ReadAllText(@"C:\Baglanti.txt");
+        //public SqlConnection baglanti()
+        //{
+        //    SqlConnection baglanti = new SqlConnection(@"Data Source=UMUT\SQLEXPRESS;Initial Catalog=YurtKayit;Integrated Security=True");
+        //    baglanti.Open();
+        //    return baglanti;
+
+        //}
     }
 }
